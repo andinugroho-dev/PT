@@ -1,0 +1,9 @@
+---
+
+# file: ptonly.yml
+
+- name: Install and configure a single PacketTracer instance
+  hosts: pt_configuration
+  roles:
+    - proxy
+    - pt_configurator

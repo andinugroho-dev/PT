@@ -1,0 +1,7 @@
+---
+
+
+# file: main.yml
+- include: webservers.yml
+- include: schedulers.yml
+- include: ptinstances.yml
